@@ -1,6 +1,6 @@
 ---
-Logo: image/me.png
-Tagline: Student at dbwebb
+Logo: image/logo.png
+# Tagline: Carol Vesterlund Student at dbwebb-design
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/cave-24
