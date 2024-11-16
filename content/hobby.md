@@ -1,6 +1,7 @@
 ---
 Title: Hobby
 Description: Page about my hobby
+# icon: fa fa-compass
 ---
 
 Min hobby
