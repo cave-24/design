@@ -1,5 +1,5 @@
 ---
-Logo: image/logo.png
+Logo: image/me_log.png
 # Tagline: Carol Vesterlund Student at dbwebb-design
 Social:
     - title: Link till sidans github repo.

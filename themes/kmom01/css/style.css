@@ -103,11 +103,11 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #060606;
-    background-color: #727070;
+    background-color: #b4a5b4;
 }
 
 .footer a {
-    color:#b4a5b4;
+    color:#080808;
 }
 
 .social {
@@ -122,7 +122,7 @@ body {
 .footer2 {
     margin: auto;
     display: flex;
-    color:#b4a5b4;
+    color:#080808;
 }
 
 
@@ -147,6 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
+    width: 75%;
+    height: 75%;
     margin: auto;
     display: flex;
     max-width: 80%;
