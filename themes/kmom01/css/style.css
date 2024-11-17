@@ -163,6 +163,15 @@ img.me {
     margin-bottom: 2em;
 }
 
+/* Hoover */
+
+div a:visited {
+   color: aqua;
+}
+
+div a:hover {
+    color: blueviolet;
+}
 
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
