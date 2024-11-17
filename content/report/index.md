@@ -13,5 +13,8 @@ Report
 * [kmom04](report/kmom04)
 * [kmom05](report/kmom05)
 * [kmom06](report/kmom06)
+* [about](report/about)
+* [hobby](report/hobby)
+* [test](report/test)
 
 
