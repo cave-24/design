@@ -1,16 +1,16 @@
 ---
 Logo: image/me_log.png
-Tagline:
+Tagline: Carol Vesterlund - Student BTH
 Social:
-    - title: Link till sidans github repo.
+    - title: Link to sites github repository.
       url: https://github.com/cave-24
-      icon: github
+      icon: fab fa-github
 
     - title: Link to course site.
       url: https://dbwebb.se/design
-      icon: leaf
+      icon: fa fa-leaf
     
     - title: Link to sass
       url: https://sass-lang.com/guide
-      icon: wrench  
+      icon: fab fa-sass  
 ---
