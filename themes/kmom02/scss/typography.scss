@@ -1,5 +1,34 @@
 
-body {
-  line-height: 1.4;
-  font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  html {
+    font-size: $font-size-html-default;
+  }
 }
+
+
+body {
+  font-family: $font-family-montserrat;
+  line-height: $line-height-default;
+  
+  p {
+    font-weight: $font-weight-normal;
+    /* font-style: italic; */
+    font-size: 1.4em;
+    margin-bottom: 1.96rem;
+    letter-spacing: $letter-spacing-default;
+  }
+
+  .main {
+    width: $width-main-deafult;
+    margin: $margin-main-deafult;
+    color: $font-color-main-default;
+  }
+}
+
+
+
+
