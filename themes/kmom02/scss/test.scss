@@ -1,8 +1,14 @@
 
+
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+  padding: 1em;
+}
+
 .old-fashioned {
-  // font-family: "Metal", serif;
-  // font-weight: 400;
-  // font-style: normal;
+  @include theme;
   font-family: 'Ballet', cursive;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -11,12 +17,14 @@
 }
 
 .modern {
+  @include theme($theme: DarkRed);
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .worst-ever {
+  @include theme($theme: DarkGreen);
   font-family: 'Rock Salt', cursive;
   font-weight: 400;
   font-style: normal;

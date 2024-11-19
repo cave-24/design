@@ -12,29 +12,30 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../shared/scss/base';
-@import 'mixin';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 @import 'functions';
 
 
-@import 'typography';
+@import 'default';
 
 
 
 @import 'blockquotes';
 
 @import 'code';
-
-@import 'mobile-menu';
-@import 'nav';
-@import 'header';
 @import 'container';
+@import 'nav';
+
+@import 'header';
 @import 'footer';
 @import 'social';
 @import 'test';
+@import 'img';
 
 @import 'technologies';
+
+@import 'mobile-menu';
 
 
 

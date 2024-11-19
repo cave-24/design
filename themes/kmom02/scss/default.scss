@@ -1,4 +1,5 @@
 
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +10,9 @@
   }
 }
 
-
 body {
+  display: flex;
+  flex-direction: column;
   font-family: $font-family-montserrat;
   line-height: $line-height-default;
   
@@ -23,11 +25,15 @@ body {
   }
 
   .main {
+    flex: 1 0 auto;
+    font-size: 0.8rem;
     width: $width-main-deafult;
-    margin: $margin-main-deafult;
+    margin: 0 auto;
     color: $font-color-main-default;
   }
 }
+
+
 
 
 

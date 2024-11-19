@@ -1,17 +1,19 @@
 
-.header {
-  display: flex;
+@mixin display($display: flex) {
+  display: $display;
   flex-direction: row;
-  padding: 2rem;
   justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  @include display;
+  height: 40%;
+  padding: 0.2rem;
   background-color: #aaa;
 }
 
 .siteheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  @include display;
 }
 
